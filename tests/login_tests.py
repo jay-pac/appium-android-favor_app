@@ -13,7 +13,7 @@ def login():
     }
 
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-    time.sleep(10)
+    driver.implicitly_wait(30)
 
     # Favor Login
     driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_landing_login').click()

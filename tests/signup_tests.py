@@ -1,6 +1,5 @@
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
-import time
 
 
 def signup():
@@ -13,8 +12,8 @@ def signup():
     }
 
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+    driver.implicitly_wait(30)
     TouchAction(driver).tap(None, 569, 1579, 1).perform()
-    time.sleep(10)
 
     # Favor Signup
     driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_landing_get_started').click()
