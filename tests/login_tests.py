@@ -17,8 +17,8 @@ def login():
 
     # Favor Login
     driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_landing_login').click()
-    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_login_username').send_keys('jpacitti@gmail.com')
-    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_login_password').send_keys('B@lls1978')
+    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_login_username').send_keys('xxxxxx')
+    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_login_password').send_keys('xxxx')
     driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_login_login').click()
 
 

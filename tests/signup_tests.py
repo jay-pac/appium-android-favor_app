@@ -17,10 +17,10 @@ def signup():
 
     # Favor Signup
     driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_landing_get_started').click()
-    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_first_name').send_keys('Jason')
-    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_last_name').send_keys('Pacitti')
-    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_email').send_keys('jpacitti@gmail.com')
-    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_phone').send_keys('512-750-8873')
+    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_first_name').send_keys('Jxxx')
+    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_last_name').send_keys('Pxxxxx')
+    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_email').send_keys('xxxxx')
+    driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_phone').send_keys('xxxxx')
     driver.find_element_by_id('com.neighbfav.neighborfavor:id/activity_register_password').send_keys('test_456')
 
 
